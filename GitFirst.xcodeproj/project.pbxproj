@@ -15,6 +15,7 @@
 		040EB6872108084D0033DB06 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EB6862108084D0033DB06 /* main.m */; };
 		040EB6912108084D0033DB06 /* GitFirstTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EB6902108084D0033DB06 /* GitFirstTests.m */; };
 		040EB69C2108084D0033DB06 /* GitFirstUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 040EB69B2108084D0033DB06 /* GitFirstUITests.m */; };
+		0498237421080FE500F8EDD7 /* GitAddViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0498237321080FE500F8EDD7 /* GitAddViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,8 @@
 		040EB6972108084D0033DB06 /* GitFirstUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GitFirstUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		040EB69B2108084D0033DB06 /* GitFirstUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitFirstUITests.m; sourceTree = "<group>"; };
 		040EB69D2108084D0033DB06 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0498237221080FE500F8EDD7 /* GitAddViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = GitAddViewController.h; sourceTree = "<group>"; };
+		0498237321080FE500F8EDD7 /* GitAddViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = GitAddViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +113,8 @@
 				040EB6822108084D0033DB06 /* LaunchScreen.storyboard */,
 				040EB6852108084D0033DB06 /* Info.plist */,
 				040EB6862108084D0033DB06 /* main.m */,
+				0498237221080FE500F8EDD7 /* GitAddViewController.h */,
+				0498237321080FE500F8EDD7 /* GitAddViewController.m */,
 			);
 			path = GitFirst;
 			sourceTree = "<group>";
@@ -263,6 +268,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				040EB67C2108084C0033DB06 /* ViewController.m in Sources */,
+				0498237421080FE500F8EDD7 /* GitAddViewController.m in Sources */,
 				040EB6872108084D0033DB06 /* main.m in Sources */,
 				040EB6792108084C0033DB06 /* AppDelegate.m in Sources */,
 			);
